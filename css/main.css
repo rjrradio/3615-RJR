@@ -29,7 +29,7 @@ body {
     font-family: Beeb, Courier, monospace;
     background-color: #0E0F11;
     color: #C4F4FF;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 #container {
@@ -51,4 +51,29 @@ input[type=submit] {
     padding: 2px 16px 0;
     border: none;
     color: #0E0F11;
+}
+
+#header {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logo {
+    font-family: Courier, monospace;
+    margin-left: 20px;
+    color: orange;
+}
+
+#logo > p {
+    margin-top: -6px;
+}
+
+#logo i {
+    color: black;
 }
