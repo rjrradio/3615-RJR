@@ -126,3 +126,7 @@ input[type=submit] {
     display: inline-block;
     vertical-align: middle;
 }
+
+#poisson-header a {
+    color: red;
+}
