@@ -27,7 +27,7 @@ html, body {
 
 body {
     font-family: Beeb, Courier, monospace;
-    background-color: #0E0F11;
+    background-color: #0058EE;
     color: #C4F4FF;
     font-size: 13px;
 }
@@ -57,6 +57,7 @@ input[type=submit] {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
 }
 
 #header > * {
@@ -75,5 +76,39 @@ input[type=submit] {
 }
 
 #logo i {
-    color: black;
+    color: #0058EE;
+}
+
+#menu input {
+    font-size: 16px;
+}
+
+#saisie {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#iewarning {
+    padding: 10px;
+}
+
+.champ {
+    width: 50px;
+    position: relative;  
+}
+
+.champ > * {
+    width: inherit;
+    position: absolute;
+}
+
+.champ > span {
+    margin-top: 10px;
+}
+
+.champ > input {
+    color: white;
+    width: inherit;
+    background: none;
+    border: none;
 }

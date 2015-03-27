@@ -19,6 +19,10 @@ Minitel 0.1
 <!--[if gte IE 9]><body class="IE"><![endif]--> <!-- IE10 + -->
 <!--[if !IE]>--><body class="notIE"><!--<![endif]-->
 
+    <!--[if lt IE 8]>
+    <h1 id="iewarning"><p>Il semblerait que votre terminal Minitel n'est pas a jour.</p><p> Afin de profiter au mieux de ce service, nous vous invitons a le mettre a jour vers une version plus recente, ou bien essayer une alternative comme <a href="http://www.mozilla.org/firefox">Firefox</a> ou <a href="http://chrome.google.com" target="_blank">Chrome</a> </p></h1>
+    <!--[endif]-->
+
     <div id="container">
         <div id="header">
             <div>
@@ -46,12 +50,22 @@ Minitel 0.1
             </div>
         </div>
 
-        <div>
-            <h1>-</h1>
-            <div>
-                <input type="submit" value="La radio"/>
-                <input type="submit" value="Programmes"/>
-            </div>
+        <div id="menu">
+            <input type="submit" value="1. La radio"/>
+            <input type="submit" value="2. Programmes"/>
+            <input type="submit" value="3. Carte Club"/>
+            <input type="submit" value="4. RJR TV"/>
+            <input type="submit" value="5. Contactez-nous"/>
+        </div>
+        
+        <form type="GET" id="saisie">
+            <span>Votre saisie :</span> 
+            <span class="champ">
+                <span>..</span>
+                <input type="text" name="page"></input>
+            </span>
+            <span style="margin-left: 50px;">puis</span>
+            <input type="submit" value="ENVOI"/>
         </div>
 
         <!--<h1>Minitel</h1>
