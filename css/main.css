@@ -65,17 +65,17 @@ input[type=submit] {
     vertical-align: middle;
 }
 
-#logo {
+.logo {
     font-family: Courier, monospace;
     margin-left: 20px;
     color: orange;
 }
 
-#logo > p {
+.logo > p {
     margin-top: -6px;
 }
 
-#logo i {
+.logo i {
     color: #0058EE;
 }
 
@@ -111,4 +111,18 @@ input[type=submit] {
     width: inherit;
     background: none;
     border: none;
+}
+
+.poisson {
+    width: ;
+}
+
+.poisson > p {
+     margin-top: -8px;
+}
+
+#poisson-header > *{
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
 }
