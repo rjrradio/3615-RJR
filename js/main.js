@@ -4,7 +4,7 @@ $(document).ready(function(){
     {
         var minitel = {
             lines : 24,
-            columns : 80
+            columns : 60
         };
 
         var vW = $(window).width() - 32;

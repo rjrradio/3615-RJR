@@ -54,7 +54,7 @@ input[type=submit] {
 }
 
 #header {
-    width: 800px;
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -77,10 +77,6 @@ input[type=submit] {
 
 .logo i {
     color: #0058EE;
-}
-
-#menu input {
-    font-size: 16px;
 }
 
 #saisie {
@@ -113,20 +109,27 @@ input[type=submit] {
     border: none;
 }
 
-.poisson {
-    width: ;
+#saisie {
+    text-align: center;
 }
 
-.poisson > p {
-     margin-top: -8px;
+#menu {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-spacing: 3px;
 }
 
-#poisson-header > *{
-    margin-right: 10px;
-    display: inline-block;
-    vertical-align: middle;
+#menu td {
+    width: 33%;
+    text-align: center;
+    background-color: #C4F4FF;
+    color: black;
+    padding: 2px;
+    font-size: 18px;
 }
 
-#poisson-header a {
-    color: red;
+.floater {
+    height: 50%;
+    margin-bottom: -182px;
 }

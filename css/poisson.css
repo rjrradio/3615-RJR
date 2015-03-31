@@ -1,0 +1,50 @@
+.floater {
+	margin-bottom: -100px;
+}
+
+#poisson-header {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#poisson-header #logo {
+	color: white;
+	font-size: 32px;
+}
+
+#message {
+	width: 50%;
+	font-size: 17px;
+	margin-left: 20px;
+}
+
+#message p {
+	margin-top: 7px;
+}
+
+#poisson-header > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#poisson-header a {
+    color: red;
+}
+
+.poisson > p {
+     margin-top: -8px;
+}
+
+.poisson i {
+    color: #0058EE;
+}
+
+.poisson {
+	color: white;
+	font-size: 32px;
+}
+
+.white {
+	color: white;
+}

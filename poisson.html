@@ -12,6 +12,7 @@ Minitel 0.1
     <title>3615 RJR</title>
     <meta name="description" content="">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/poisson.css">
 </head>
 
 <!--[if lte IE 8]><body class="IE8 IE"><![endif]--> <!-- IE8 patchs -->
@@ -22,19 +23,19 @@ Minitel 0.1
     <!--[if lt IE 8]>
     <h1 id="iewarning"><p>Il semblerait que votre terminal Minitel n'est pas a jour.</p><p> Afin de profiter au mieux de ce service, nous vous invitons a le mettre a jour vers une version plus recente, ou bien essayer une alternative comme <a href="http://www.mozilla.org/firefox">Firefox</a> ou <a href="http://chrome.google.com" target="_blank">Chrome</a> </p></h1>
     <!--<![endif]-->
-
+    <div class="floater"></div>
     <div id="container">
         <div id="poisson-header">
-            <div class="logo poisson" style="color: white; font-size: 32px;">                
+            <div class="logo poisson">                
                 <p><i>....</i>████<i>.......</i>██</p>
                 <p><i>.</i>██████████<i>..</i>███</p>
                 <p>████████████████</p>
                 <p><i>.</i>██████████<i>..</i>███</p>
                 <p><i>....</i>████<i>.......</i>██</p>
             </div>
-            <div class="message" style="width: 600px;">
-                <p>Poisson d'avril !</p>
-                <p>Rendez-vous demain pour decouvrir le VRAI nouveau site.</p>
+            <div id="message">
+                <p><span class="white">Poisson d'avril !</span></p>
+                <p>Rendez-vous <span class="white">demain</span> pour decouvrir le VRAI nouveau site.</p>
                 <p style="margin-top: 10px;">En attendant, vous pouvez toujours acceder au site actuel en cliquant <a href="http://old.rjrradio.fr/">ICI</a></p>
             </div>
         </div>
@@ -55,7 +56,7 @@ Minitel 0.1
     </div>
 
 <script src="js/jquery-1.10.2.js"></script>
-<script src="js/main.js"></script>
+<!--<script src="js/main.js"></script>-->
 
 </body>
 

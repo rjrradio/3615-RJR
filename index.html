@@ -22,7 +22,7 @@ Minitel 0.1
     <!--[if lt IE 8]>
     <h1 id="iewarning"><p>Il semblerait que votre terminal Minitel n'est pas a jour.</p><p> Afin de profiter au mieux de ce service, nous vous invitons a le mettre a jour vers une version plus recente, ou bien essayer une alternative comme <a href="http://www.mozilla.org/firefox">Firefox</a> ou <a href="http://chrome.google.com" target="_blank">Chrome</a> </p></h1>
     <!--<![endif]-->
-
+    <div class="floater"></div>
     <div id="container">
         <div id="header">
             <div>
@@ -50,13 +50,18 @@ Minitel 0.1
             </div>
         </div>
 
-        <div id="menu">
-            <input type="submit" value="1. La radio"/>
-            <input type="submit" value="2. Programmes"/>
-            <input type="submit" value="3. Carte Club"/>
-            <input type="submit" value="4. RJR TV"/>
-            <input type="submit" value="5. Contactez-nous"/>
-        </div>
+        <table id="menu">
+            <tr>
+                <td>1. La radio</td>
+                <td>2. Programmes</td>
+                <td>3. La carte Club</td>
+            </tr>
+            <tr>
+                <td>4. Nous ecouter</td>
+                <td>5. RJR TV</td>
+                <td>6. Contactez-nous</td>
+            </tr>
+        </table>
         
         <form action="poisson.html" type="GET" id="saisie">
             <span>Votre saisie :</span> 
@@ -84,7 +89,7 @@ Minitel 0.1
     </div>
 
 <script src="js/jquery-1.10.2.js"></script>
-<script src="js/main.js"></script>
+<!--<script src="js/main.js"></script>-->
 
 </body>
 
