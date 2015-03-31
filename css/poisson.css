@@ -28,10 +28,6 @@
     vertical-align: middle;
 }
 
-#poisson-header a {
-    color: red;
-}
-
 .poisson > p {
      margin-top: -8px;
 }
@@ -47,4 +43,11 @@
 
 .white {
 	color: white;
+}
+
+#lien-old {
+    color: black;
+    text-decoration: none;
+    background-color: #C4F4FF;
+    padding: 4px;
 }
